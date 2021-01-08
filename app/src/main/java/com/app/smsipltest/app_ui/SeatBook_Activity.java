@@ -60,8 +60,6 @@ public class SeatBook_Activity extends AppCompatActivity implements RequestNotif
 
         callApis(password);
 
-
-        //https://github.com/ManishAndroidIos/AndroidAssignMent.git
     }
 
     private void initView() {

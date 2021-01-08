@@ -49,9 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
 
             case R.id.btnEnter:
-//                isAllValid(mEtPassword.getText().toString().trim());
-                startActivity(new Intent(this, SeatBook_Activity.class)
-                        .putExtra("password", "1234"));
+                isAllValid(mEtPassword.getText().toString().trim());
                 break;
 
         }
